@@ -37,6 +37,7 @@ pen.addEventListener('click',()=>{
 
 bgcolour.addEventListener('click',()=>{
    let bggcolour=bgcolour.value;
+   ctx.clearRect(0, 0, canvas.width, canvas.height); 
    canvas.style.backgroundColor=bggcolour;
    
 })
